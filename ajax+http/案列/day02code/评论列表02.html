@@ -1,0 +1,52 @@
+<!--
+ * @Description: 
+ * @Author: Ronda
+ * @Date: 2022-06-08 21:08:48
+ * @LastEditors: Ronda
+ * @LastEditTime: 2022-06-08 23:05:29
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google" content="notranslate">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./lib/bootstrap.css">
+    <script src="./lib/jquery.js"></script>
+    <script src="./js/cmd.js"></script>
+</head>
+
+<body>
+    <!-- 评论面板 -->
+
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h3 class="panel-title">发表评论</h3>
+        </div>
+        <form class="panel-body">
+            <p>评论人</p>
+            <input type="text" name="username" class="form-control" id="data-username">
+            <p>评论内容</p>
+            <textarea name="content" id="data-content" class="form-control"></textarea>
+            <button class="btn btn-primary">发表评论</button>
+        </form>
+    </div>
+
+    <!-- 评论面板 -->
+
+    <!-- 评论列表 -->
+    <ul class="list-group" id="cmd-list">
+        <li class="list-group-item">
+            <span class="badge" style="background-color: pink;">评论时间</span>
+            <span class="badge" style="background-color: skyblue;">评论人</span>
+            Item 1
+        </li>
+
+    </ul>
+
+</body>
+
+</html>
