@@ -3,7 +3,7 @@
  * @Author: Ronda
  * @Date: 2022-06-10 17:06:42
  * @LastEditors: Ronda
- * @LastEditTime: 2022-06-11 08:42:07
+ * @LastEditTime: 2022-06-11 09:32:21
  */
 $(function () {
     // 点击去注册
@@ -68,7 +68,7 @@ $(function () {
                 localStorage.setItem('token', res.token)
                 // console.log(res.token)
                 // 跳转到后台主页
-                // location.href = '/index.html'
+                location.href = '/index.html'
             }
         })
     })
